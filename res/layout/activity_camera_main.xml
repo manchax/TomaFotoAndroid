@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+	<ImageView
+	    android:id="@+id/imgActual"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:contentDescription="@string/imgViewDesc" />
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal" >
+		
+		<ImageButton
+		    android:id="@+id/imageButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"	    
+		    android:contentDescription="@string/tomaFotoDesc"
+		    android:src="@android:drawable/ic_menu_camera"
+		    android:onClick="tomarFoto" />
+
+		<ImageButton
+		    android:id="@+id/imageButton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@android:drawable/ic_menu_preferences"
+		    android:contentDescription="@string/configuracionDesc"
+		    android:onClick="configurar" />
+	
+	</LinearLayout>
+	
+</LinearLayout>

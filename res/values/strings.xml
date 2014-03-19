@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TomaFoto ITexico</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imgViewDesc">Vista Imagen</string>
+    <string name="tomaFotoDesc">Tomar Fotografía</string>
+    <string name="cameraNotFoundMsg">No se encontró una cámara en el dispositivo.</string>
+	<string name="cameraNotFoundTitle">Problema con la cámara</string>
+	<string name="close">Cerrar</string>
+	<string name="capture">Capturar</string>
+	<string name="flashOn">Flash Encendido</string>
+	<string name="flashOff">Flash Apagado</string>
+	<string name="pref_cameraNum">Cámara #:</string>
+	<string name="configuracionDesc">Configuración</string>
+</resources>
